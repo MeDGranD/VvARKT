@@ -43,7 +43,7 @@ UNTIL (CirkData[4]<0)
 }
 LOCK THROTTLE TO 0.
 
-wait.
+wait 5.
 
 set config:ipu to 2000.
 runoncepath("0:/rsvp/main.ks").
